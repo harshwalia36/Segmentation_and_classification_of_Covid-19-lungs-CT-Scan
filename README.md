@@ -10,7 +10,7 @@ This Project includes 3 Task :-
 
 <table border="0">
 <tr>
-<td><b style="font-size:30px">Sample datas</b></td>
+<td><b style="font-size:30px">Sample data</b></td>
 </tr>
 <tr>
 <td><img src="Images/Sample_data.png" width="1200" height="275" /></td>
@@ -25,7 +25,7 @@ In this Project, we have given 20 3D CtScans data and their Masks We have taken 
 Before Training the Model for any of the subtasks, we have to do PreProcessing on images, and then this same Preprocessing can be used in tasks and then feed into the model.
 
 - ***Task 1:-***  This Task First do some PreProcessing of the images and then do the Infection Segmentation from the Patient Lungs..The model used for Segmentation is the UNET model.
-***Task 2:-***  Task 2 contains a Classification model using CNN, which classifies CtScan as Covid or Non-Covid Person.
+- ***Task 2:-***  Task 2 contains a Classification model using CNN, which classifies CtScan as Covid or Non-Covid Person.
 - ***Task 3:-***  Task 3 contains the Lung Segmentation from their respective CTscan CT scan. Here also for Lung Segmentation, we used the Segmentation model
 
 #### -----------------------------------------------------------------------------------------------------------------------------------------
@@ -40,16 +40,16 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
 <img src="Images/faulty_images.png" width="1000" height="275" />
 <br/>
 
-###### After Removing faulty images we get cleared image
+##### After Removing faulty images we get cleared image
 <img src="Images/unfaulty_images.png" width="1000" height="275" />
 <br/>
 
-###### Enhanced CT Scan
-<img src="Images/enhanced_ctscan.png" width="1000" height="275" />
+##### Enhanced CT Scan
+<img src="Images/enhanced_ctscan.png" width="800" height="300" />
 <br/>
 
-###### Cropped Lungs
-<img src="Images/uncropped_lungs.png" width="1000" height="275" />
+##### Cropped Lungs
+<img src="Images/cropped_lungs.png" width="900" height="400" />
 <br/>
 
 <table border="0">
@@ -103,7 +103,7 @@ RESULT TABLE
 +----------------------------------------+----------------------------+-----------------------+---------------------------+----------------
 |       Task3: Lung Segmentation     |  0.978        |    0.958  |     0.977    |    0.980    |    -    | same as dice |     -    |
 +----------------------------------------+----------------------------+-----------------------+---------------------------+----------------
-|                                        | Note: precision and recall | values are as per the | best threshold for dice   |                        |        |              |          |
+|                                        | Note: precision and recall | values are as per the | best threshold for dice   |       |
 +--------------------------------------+------------------------+-----------------------------------------+-------------------+------------+
 ```
 
@@ -125,7 +125,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Optimizing threshold for dice and IOU</b></td>
  </tr>
  <tr>
-    <td><img src="Images/task1-_threshold.png" width="1000" height="300" /></td>
+    <td><img src="Images/task-1-dice_coeff_threshold.png" width="900" height="300" /></td>
     
  </tr>
 </table>
@@ -146,7 +146,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Some Actual Vs Predicted Masks</b></td>
  </tr>
  <tr>
-    <td><img src="Images/task1-Predicting_inf_mask.png" width="600" height="900" /></td>
+    <td><img src="Images/task1-Predicting_inf_mask.PNG" width="600" height="900" /></td>
  </tr>
 </table>
 
@@ -187,7 +187,7 @@ RESULT TABLE
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">Optimizing threshold with small step size</b></td>
+    <td><b style="font-size:30px">Optimizing threshold for Dice and IOU</b></td>
  </tr>
  <tr>
     <td><img src="Images/task-3_threshold_curve.png" width="1000" height="300" /></td>
@@ -200,7 +200,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Actual v/s Predicted Lung Masks</b></td>
  </tr>
  <tr>
-    <td><img src="Images/task-3-lung_predicted_mask.png" width="600" height="900" /></td>
+    <td><img src="Images/task-3-lung_predicted_mask.PNG" width="600" height="900" /></td>
  </tr>
 </table>
 
@@ -214,7 +214,7 @@ Important tools/libraries used for this task are:
 * For Segmentation we used the UNET Model to Segment the Infection and Lungs From the given  CT Scan.<br/>
   - The UNet architecture was used for BioMedical Image segmentation. The introduced architecture had two main parts that were contraction and Expansion. The contraction is all about the covenant layers followed by pooling operation. It is used to extract the factors in the image. The second part Expansion, uses transposed convolution to permit localization. It is again an F.C connected layers network.
 
-  - <img src="Images/UNET.png" width="500" height="500" />
+  - <img src="Images/UNET.png" width="900" height="600" />
 
 
 * For Classification, we use simple CNN(Convolution Neural Network) architecture to classify an image into covid or Non-Covid.
