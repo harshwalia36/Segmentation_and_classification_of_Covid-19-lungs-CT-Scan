@@ -172,10 +172,10 @@ RESULT TABLE
 
 ##### Precision vs Recall
 
-<img src="Images/task2-precision.png" width="550" height="400" />
+<img src="Images/task2-precision.jpeg" width="500" height="400" />
 
 ##### ROC Curve
-<img src="Images/task-2_ROC.jpeg" width="550" height="400" />
+<img src="Images/task-2_ROC.jpg" width="500" height="400" />
 
 # Results with UNet (Task: 3- Lungs Segmentation)
 
