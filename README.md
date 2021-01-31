@@ -45,11 +45,11 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
 <br/>
 
 ##### Enhanced CT Scan
-<img src="Images/enhanced_ctscan.png" width="800" height="300" />
+<img src="Images/enhanced_ctscan.png" width="650" height="300" />
 <br/>
 
 ##### Cropped Lungs
-<img src="Images/cropped_lungs.png" width="900" height="400" />
+<img src="Images/cropped_lungs.png" width="800" height="300" />
 <br/>
 
 <table border="0">
@@ -125,7 +125,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Optimizing threshold for dice and IOU</b></td>
  </tr>
  <tr>
-    <td><img src="Images/task-1-dice_coeff_threshold.png" width="900" height="300" /></td>
+    <td><img src="Images/task1-dice_coeff_threshold.png" width="900" height="300" /></td>
     
  </tr>
 </table>
