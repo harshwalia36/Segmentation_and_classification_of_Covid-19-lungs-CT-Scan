@@ -239,8 +239,8 @@ Important tools/libraries used for this task are:
 
 # SETUP STEPS
 * This Project contains 3 .ipynb files for 3 individual Tasks
-* Any necessary package to be installed is placed on top of each of the six scripts/notebooks.
-* Notebooks are using kaggle and Colab collectively so will contain some operations  importing data from kaggle to colab needs a unique API key, mounting drive and authentication etc
+* Any necessary package to be installed is placed on top of each of the three notebooks.
+* Notebooks are using kaggle and Colab collectively so will contain some operations  importing data from kaggle to colab needs a unique API key, mounting drive and authentication etc.
 
 ### ---------------------------------------------------------------------------------------------------------------------------------------
 
