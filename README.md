@@ -146,7 +146,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Some Actual Vs Predicted Masks</b></td>
  </tr>
  <tr>
-    <td><img src="Images/task1-Predicting_inf_mask.PNG" width="600" height="900" /></td>
+    <td><img src="Images/task1-Predicting_inf_mask.PNG" width="700" height="900" /></td>
  </tr>
 </table>
 
@@ -200,7 +200,16 @@ RESULT TABLE
     <td><b style="font-size:30px">Actual v/s Predicted Lung Masks</b></td>
  </tr>
  <tr>
-    <td><img src="Images/task-3-lung_predicted_mask.PNG" width="600" height="900" /></td>
+    <td><img src="Images/task-3-lung_predicted_mask.PNG" width="700" height="900" /></td>
+ </tr>
+</table>
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Precision and recall curves v/s thresholds</b></td>
+ </tr>
+ <tr>
+    <td><img src="Images/task-3-precision_recall_curve.png" width="550" height="400" /></td>
  </tr>
 </table>
 
