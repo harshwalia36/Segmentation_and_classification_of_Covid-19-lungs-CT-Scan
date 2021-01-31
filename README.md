@@ -13,7 +13,7 @@ This Project includes 3 Task :-
 <td><b style="font-size:30px">Sample datas</b></td>
 </tr>
 <tr>
-<td><img src="images/Sample_data.png" width="1200" height="275" /></td>
+<td><img src="Images/Sample_data.png" width="1200" height="275" /></td>
 </tr>
 </table>
 
@@ -37,19 +37,19 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
 4.) Data Augmentation <br />
 
 ###### Faulty and Blurry Images
-<img src="images/faulty_images.png" width="1000" height="275" />
+<img src="Images/faulty_images.png" width="1000" height="275" />
 <br/>
 
 ###### After Removing faulty images we get cleared image
-<img src="images/unfaulty_images.png" width="1000" height="275" />
+<img src="Images/unfaulty_images.png" width="1000" height="275" />
 <br/>
 
 ###### Enhanced CT Scan
-<img src="images/enhanced_ctscan.png" width="1000" height="275" />
+<img src="Images/enhanced_ctscan.png" width="1000" height="275" />
 <br/>
 
 ###### Cropped Lungs
-<img src="images/uncropped_lungs.png" width="1000" height="275" />
+<img src="Images/uncropped_lungs.png" width="1000" height="275" />
 <br/>
 
 <table border="0">
@@ -57,7 +57,7 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
     <td><b style="font-size:30px">Augmentated CT Scans (Task: 1)</b></td>
  </tr>
  <tr>
-    <td><img src="images/task1_aug.png" widthcts_aug_again.png="1000" height="150" /></td>
+    <td><img src="Images/task1_aug.png" widthcts_aug_again.png="1000" height="150" /></td>
  </tr>
 </table>
 
@@ -66,7 +66,7 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
     <td><b style="font-size:30px">Augmented Infections Masks (Task: 1)</b></td>
  </tr>
  <tr>
-    <td><img src="images/task1_aug_infection_mask.png" width="1000" height="150" /></td>
+    <td><img src="Images/task1_aug_infection_mask.png" width="1000" height="150" /></td>
  </tr>
 </table>
 
@@ -76,7 +76,7 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
     <td><b style="font-size:30px">Augmentated CT Scans (Task: 3)</b></td>
  </tr>
  <tr>
-    <td><img src="images/task2_aug.png" widthcts_aug_again.png="1000" height="150" /></td>
+    <td><img src="Images/task2_aug.png" widthcts_aug_again.png="1000" height="150" /></td>
  </tr>
 </table>
 
@@ -85,7 +85,7 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
     <td><b style="font-size:30px">Augmented Lung Masks (Task: 3)</b></td>
  </tr>
  <tr>
-    <td><img src="images/task2_aug_lung_mask.png" width="1000" height="150" /></td>
+    <td><img src="Images/task2_aug_lung_mask.png" width="1000" height="150" /></td>
  </tr>
 </table>
 
@@ -115,8 +115,8 @@ RESULT TABLE
     <td><b style="font-size:30px">Training curve for BCE+Dice Loss</b></td>
  </tr>
  <tr>
-    <td><img src="images/task1-dice_coeff.png" width="400" height="300" /></td>
-    <td><img src="images/task1-dice_loss.png" width="400" height="300" /></td>
+    <td><img src="Images/task1-dice_coeff.png" width="400" height="300" /></td>
+    <td><img src="Images/task1-dice_loss.png" width="400" height="300" /></td>
  </tr>
 </table>
 
@@ -125,7 +125,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Optimizing threshold for dice and IOU</b></td>
  </tr>
  <tr>
-    <td><img src="images/task1-_threshold.png" width="1000" height="300" /></td>
+    <td><img src="Images/task1-_threshold.png" width="1000" height="300" /></td>
     
  </tr>
 </table>
@@ -136,7 +136,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Precision and recall curves v/s thresholds</b></td>
  </tr>
  <tr>
-    <td><img src="images/task1-precision_recall_curve.png" width="550" height="400" /></td>
+    <td><img src="Images/task1-precision_recall_curve.png" width="550" height="400" /></td>
  </tr>
 </table>
 
@@ -146,7 +146,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Some Actual Vs Predicted Masks</b></td>
  </tr>
  <tr>
-    <td><img src="images/task1-Predicting_inf_mask.png" width="600" height="900" /></td>
+    <td><img src="Images/task1-Predicting_inf_mask.png" width="600" height="900" /></td>
  </tr>
 </table>
 
@@ -157,7 +157,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Classification loss curve</b></td>
  </tr>
  <tr>
-    <td><img src="images/task2-classification_loss_curve.png" width="600" height="380" /></td>
+    <td><img src="Images/task2-classification_loss_curve.png" width="600" height="380" /></td>
  </tr>
 </table>
 
@@ -166,7 +166,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Confusion matrix </b></td>
  </tr>
  <tr>
-    <td><img src="images/confusion_matrix.png" width="500" height="500" /></td>
+    <td><img src="Images/confusion_matrix.png" width="500" height="500" /></td>
  </tr>
 </table>
 
@@ -179,8 +179,8 @@ RESULT TABLE
     <td><b style="font-size:30px">Training curve for BCE + Dice Loss</b></td>
  </tr>
  <tr>
-    <td><img src="images/task-3_dice_coeff.png" width="350" height="300" /></td>
-    <td><img src="images/task-3_dice_loss.png" width="350" height="300" /></td>
+    <td><img src="Images/task-3_dice_coeff.png" width="350" height="300" /></td>
+    <td><img src="Images/task-3_dice_loss.png" width="350" height="300" /></td>
  </tr>
 </table>
 
@@ -190,7 +190,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Optimizing threshold with small step size</b></td>
  </tr>
  <tr>
-    <td><img src="images/task-3_threshold_curve.png" width="1000" height="300" /></td>
+    <td><img src="Images/task-3_threshold_curve.png" width="1000" height="300" /></td>
  </tr>
 </table>
 
@@ -200,7 +200,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Actual v/s Predicted Lung Masks</b></td>
  </tr>
  <tr>
-    <td><img src="images/task-3-lung_predicted_mask.png" width="600" height="900" /></td>
+    <td><img src="Images/task-3-lung_predicted_mask.png" width="600" height="900" /></td>
  </tr>
 </table>
 
@@ -214,7 +214,7 @@ Important tools/libraries used for this task are:
 * For Segmentation we used the UNET Model to Segment the Infection and Lungs From the given  CT Scan.<br/>
   - The UNet architecture was used for BioMedical Image segmentation. The introduced architecture had two main parts that were contraction and Expansion. The contraction is all about the covenant layers followed by pooling operation. It is used to extract the factors in the image. The second part Expansion, uses transposed convolution to permit localization. It is again an F.C connected layers network.
 
-  - <img src="images/UNET.png" width="500" height="500" />
+  - <img src="Images/UNET.png" width="500" height="500" />
 
 
 * For Classification, we use simple CNN(Convolution Neural Network) architecture to classify an image into covid or Non-Covid.
