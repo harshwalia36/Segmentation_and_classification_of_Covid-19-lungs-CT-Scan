@@ -21,7 +21,7 @@ This Project includes 3 Task :-
 #### --------------------------------------------------------------------------------------------------------------------------------
 
 ### Details of the 3 Tasks are:-
-In this Project, we have given 20 3D CtScans data and their Masks We have taken some 2D slices of the images. <br/>
+In this Project, we have given 20 3D CT Scans data and their Masks We have taken some 2D slices of the images. <br/>
 Before Training the Model for any of the subtasks, we have to do PreProcessing on images, and then this same Preprocessing can be used in tasks and then feed into the model.
 
 - ***Task 1:-***  This Task First do some PreProcessing of the images and then do the Infection Segmentation from the Patient Lungs..The model used for Segmentation is the UNET model.
@@ -31,7 +31,7 @@ Before Training the Model for any of the subtasks, we have to do PreProcessing o
 #### -----------------------------------------------------------------------------------------------------------------------------------------
 # Preprocessing Stage
 
-1.) Removing incomplete and fauty images(Removed initial 25% and ending 25% slices from the 3D CtScan) <br />
+1.) Removing incomplete and fauty images(Removed initial 25% and ending 25% slices from the 3D CT Scans) <br />
 2.) For image enhancement we used  Contrast Limited Adaptive Histogram Equalization(CLAHE) method ()<br />
 3.) Cropping the Region of Interst (ROI)  <br />
 4.) Data Augmentation <br />
