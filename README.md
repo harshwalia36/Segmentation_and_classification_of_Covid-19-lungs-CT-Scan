@@ -21,12 +21,12 @@ This Project includes 3 Task :-
 #### --------------------------------------------------------------------------------------------------------------------------------
 
 ### Details of the 3 Tasks are:-
-In this Project, we have given 20 3D CT Scans data and their Masks We have taken some 2D slices of the images. <br/>
+In this Project, we have been given 20 3D CT Scans and their Masks. We have taken some 2D slices of the images. <br/>
 Before Training the Model for any of the subtasks, we have to do PreProcessing on images, and then this same Preprocessing can be used in tasks and then feed into the model.
 
-- ***Task 1:-***  This Task First do some PreProcessing of the images and then do the Infection Segmentation from the Patient Lungs..The model used for Segmentation is the UNET model.
-- ***Task 2:-***  Task 2 contains a Classification model using CNN, which classifies CtScan as Covid or Non-Covid Person.
-- ***Task 3:-***  Task 3 contains the Lung Segmentation from their respective CTscan CT scan. Here also for Lung Segmentation, we used the Segmentation model
+- ***Task 1:-***  This Task First do some PreProcessing of the images and then do the Infection Segmentation from the Patient Lungs.The model used for Segmentation is the UNET model.
+- ***Task 2:-***  Task 2 contains a Classification model using CNN, which classifies CT Scan as Covid or Non-Covid Person.
+- ***Task 3:-***  Task 3 contains the Lung Segmentation from their respective CT scans. Here also for Lung Segmentation, we used the Segmentation model
 
 #### -----------------------------------------------------------------------------------------------------------------------------------------
 # Preprocessing Stage
