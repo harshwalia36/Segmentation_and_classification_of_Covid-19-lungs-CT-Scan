@@ -157,7 +157,7 @@ RESULT TABLE
     <td><b style="font-size:30px">Classification loss curve</b></td>
  </tr>
  <tr>
-    <td><img src="Images/task2-classification_loss.png" width="600" height="380" /></td>
+    <td><img src="Images/task2-classification__loss.png" width="600" height="380" /></td>
  </tr>
 </table>
 
@@ -166,16 +166,16 @@ RESULT TABLE
     <td><b style="font-size:30px">Confusion matrix </b></td>
  </tr>
  <tr>
-    <td><img src="Images/confusion-matrix.png" width="500" height="500" /></td>
+    <td><img src="Images/confusion_matrix.png" width="500" height="500" /></td>
  </tr>
 </table>
 
 ##### Precision vs Recall
 
-<img src="Images/task2-precision_recall_curve.png" width="500" height="400" />
+<img src="Images/task2-PR_curve.png" width="500" height="400" />
 
 ##### ROC Curve
-<img src="Images/task-2_ROC_curve.png" width="500" height="400" />
+<img src="Images/task-2_ROC.png" width="500" height="400" />
 
 # Results with UNet (Task: 3- Lungs Segmentation)
 
