@@ -5,7 +5,7 @@
 This Project includes 3 Task :-
 ##### TASK 1- Covid 19 Infection Segmentation
 ##### TASK 2- Covid 19 Classification
-##### TASK 3- Covid 19 Infection Segmentation
+##### TASK 3- Covid 19 Lung Segmentation
 
 
 <table border="0">
